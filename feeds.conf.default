@@ -1,0 +1,17 @@
+src-git packages https://github.com/coolsnowwolf/packages
+src-git luci https://github.com/coolsnowwolf/luci
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+src-git freifunk https://github.com/freifunk/openwrt-packages.git
+#src-git video https://github.com/openwrt/video.git
+#src-git targets https://github.com/openwrt/targets.git
+#src-git management https://github.com/openwrt-management/packages.git
+#src-git oldpackages http://git.openwrt.org/packages.git
+#src-link custom /usr/src/openwrt/custom-feed
+src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb
+src-git luci-app-vssr https://github.com/jerrykuku/luci-app-vssr
+src-git Lienol https://github.com/Lienol/openwrt-package
+src-git luci-app-serverchan https://github.com/tty228/luci-app-serverchan
+src-git luci-theme-argon https://github.com/jerrykuku/luci-theme-argon
+src-git kenzok8 https://github.com/kenzok8/openwrt-packages
+src-git luci-app-koolproxyR https://github.com/cnzd/luci-app-koolproxyR
