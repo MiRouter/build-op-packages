@@ -8,10 +8,4 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git
 #src-git management https://github.com/openwrt-management/packages.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-src-git luamaxminddb https://github.com/jerrykuku/lua-maxminddb
-src-git vssr https://github.com/jerrykuku/luci-app-vssr
-src-git Lienol https://github.com/Lienol/openwrt-package
-src-git serverchan https://github.com/tty228/luci-app-serverchan
-src-git argon https://github.com/jerrykuku/luci-theme-argon
-src-git kenzok8 https://github.com/kenzok8/openwrt-packages
-src-git koolproxyR https://github.com/cnzd/luci-app-koolproxyR
+src-git opapps https://github.com/kenzok8/openwrt-packages
