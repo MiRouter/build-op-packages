@@ -12,7 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-cd feeds/opapps
+cd package
 git clone https://github.com/jerrykuku/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr
 git clone https://github.com/Lienol/openwrt-package
