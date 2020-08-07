@@ -12,7 +12,15 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-mkdir -p package/diy-packages/luci-app-diskman && \
-mkdir -p package/diy-packages/parted && \
-wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Makefile -O package/diy-packages/luci-app-diskman/Makefile
-wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/diy-packages/parted/Makefile
+cd feeds/opapps
+git clone https://github.com/jerrykuku/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr
+git clone https://github.com/Lienol/openwrt-package
+git clone https://github.com/tty228/luci-app-serverchan
+git clone https://github.com/jerrykuku/luci-theme-argon
+git clone https://github.com/cnzd/luci-app-koolproxyR
+
+mkdir -p luci-app-diskman && \
+mkdir -p parted && \
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Makefile -O luci-app-diskman/Makefile
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O parted/Makefile
